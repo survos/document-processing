@@ -1,0 +1,26 @@
+{
+  "name": "survos/document-processing",
+  "description": "Typed Files and OCR client for Mistral-compatible document services.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "symfony/http-client": "^8.1",
+    "symfony/serializer": "^8.1",
+    "symfony/property-info": "^8.1",
+    "symfony/property-access": "^8.1",
+    "phpdocumentor/reflection-docblock": "^5.6",
+    "symfony/mime": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Survos\\DocumentProcessing\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^13.0"
+  },
+  "scripts": {
+    "test": "phpunit --bootstrap tests/bootstrap.php tests"
+  }
+}
