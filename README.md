@@ -1,5 +1,7 @@
 # Survos Document Processing
 
+Install with `composer require survos/document-processing`.
+
 A standalone PHP 8.5 / Symfony 8.1 client for a documented subset of the Mistral Files and OCR wire contract. It can target Mediary once its compatible server endpoints exist. This library does not implement those endpoints or run an OCR engine.
 
 ```php
